@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Modal from './components/Modal'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div className="body">
+
+  <div className="header"> 
+   <img
+     src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+    alt="logo- netflix" />
+   </div>
+
+    <Modal /> 
+
     </div>
   );
 }

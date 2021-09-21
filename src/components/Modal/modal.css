@@ -1,0 +1,75 @@
+
+.body-modal{
+  display: flex;
+  width: 100%;
+}
+
+div .modal-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.modal-1{
+  background-color: rgb(0, 0, 0);
+  backdrop-filter: blur(2px);
+  color: white;
+}
+
+.modal-1 input{
+  background-color: rgb(34, 32, 32);
+  width: 40vh;
+  margin: 10px 0;
+  border-radius: 4px;
+  padding: 15px 5px;
+  border: none;
+  justify-content: center;
+}
+
+button{
+  width: 30vh;
+  background-color: #e50915;
+  transition: 0.3s;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 0;
+  justify-content: center;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #e03941;
+}
+
+
+
+@media screen and (min-width: 510px){
+
+.body-modal{
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-1{
+  background-color: rgba(14, 12, 11, 0.842);
+  backdrop-filter: blur(4px);
+  color: white;
+  border-radius: 10px;
+}
+
+.modal-1 input{
+  width: 50vh;
+  margin: 0 0 10px 0;
+}
+
+}
+
+@media screen and (min-width: 510px){
+  div .modal-1{
+    width: 60vh;
+    height: 60vh;
+  }
+}
